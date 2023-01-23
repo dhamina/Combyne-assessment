@@ -6,7 +6,7 @@ Create an SPA React app that matches [this design][1]. The design has been creat
 
 Once this React app is complete, send us the link to your repository via email. If it is a private repository, be sure to provide `vramanalj` read access. 
 
-[1]: https://github.com/Combyne-Ag/Interview-JS-Pokedex/blob/master/Pokedex%20MUI.png
+[1]: https://github.com/Combyne-Ag/Interview-JS-Pokedex/blob/main/Pokedex%20MUI.png
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Once this React app is complete, send us the link to your repository via email. 
 
 ## API
 
-The API for the data can be found [here](https://pokeapi.co/)
+The API for the data can be found [here](https://pokeapi.co/).
 
 You can use the direct endpoints or the GraphQL endpoint which reduces the complexity.
 
