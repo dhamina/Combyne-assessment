@@ -2,7 +2,7 @@
 
 Create a SPA react app that matches the following design:
 
-https://drive.google.com/file/d/1WFvHPvDfsDX3pMF9fNp01rtAaxc58ki_/view?usp=sharing
+https://github.com/Combyne-Ag/Interview-JS-Pokedex/blob/master/Pokedex%20MUI.png
 
 # Requirements:
 
