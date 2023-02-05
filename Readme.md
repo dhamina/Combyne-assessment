@@ -1,54 +1,70 @@
-# JS Technical Interview - Pokedex
+# Getting Started with Create React App
 
-## Instructions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create an SPA React app that matches [this design][1]. The design has been created using MUI design and the components are available in the [MUI](https://mui.com/) library.
+## Available Scripts
 
-Once this React app is complete, send us the link to your repository via email. If it is a private repository, be sure to provide `vramanalj` read access. 
+In the project directory, you can run:
 
-[1]: https://github.com/Combyne-Ag/Interview-JS-Pokedex/blob/main/Pokedex%20MUI.png
+### `yarn start`
 
-## Requirements
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* The app should be responsive. The UI image provided is for reference only. You should be optimizing the UI for mobile and larger desktop resolutions.
-* The app should have pagination. The number of pages can be fixed to 10 for this task.
-* React must be used.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## API
+### `yarn test`
 
-The API for the data can be found [here](https://pokeapi.co/).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-You can use the direct endpoints or the GraphQL endpoint which reduces the complexity.
+### `yarn build`
 
-If you use the GraphQL endpoint, you can use [this URL](https://pokeapi.co/docs/graphql) and the following query to get the data you need:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```graphql
-query MyQuery {
-  pokemon_v2_pokemon(limit: 20, offset: 0) {
-    id
-    name
-    pokemon_v2_pokemonsprites {
-      sprites
-    }
-    pokemon_v2_pokemontypes {
-      pokemon_v2_type {
-        name
-      }
-    }
-  }
-}
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Bonus Points
+### `yarn eject`
 
-* Deploy app to netlify, vercel or any other hosting service for Bonus Points.
-* User should be able to 'like' a pokemon by clicking on the star button in a pokemon card, this information should persist until the app is closed.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Things to Consider
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* You can use Javascript or TypeScript.
-* You can use the [MUI library](https://mui.com/) to develop the UI if desired, but it is not required.
-* Approach this project as you would any new project i.e. use whatever best practices, styles etc. you would normally use.
-* Feel free to use StackOverflow or any other online resource as you would normally do (although please do not search for the answer directly!).
-* You should be using Git as you normally would in a project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
